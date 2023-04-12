@@ -1,15 +1,29 @@
 .outer{
     background-color: #B4FFF6;
-    width: 8vw;
-    height: 8vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    margin: 100px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+.titleHolder{
+    position: absolute;
+    text-align: left;
+    left: 10%;
 }
 
 .mainTitle{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 1.4rem;
+    display: block;
     
+}
+.subTitle{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4D4D4D;
 }
