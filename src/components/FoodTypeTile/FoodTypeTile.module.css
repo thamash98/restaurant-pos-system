@@ -1,0 +1,15 @@
+.outer{
+    background-color: #B4FFF6;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+}
