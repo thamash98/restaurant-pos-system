@@ -1,0 +1,6 @@
+.foodContainer{
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+
+}

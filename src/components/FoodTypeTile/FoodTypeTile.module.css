@@ -1,10 +1,10 @@
 .outer{
     background-color: #B4FFF6;
-    width: 10vw;
-    height: 10vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 10px;
     position: relative;
-    margin: 100px;
+    margin: 10px;
     cursor: pointer;
     transition: all 400ms ease-in-out;
 }
@@ -17,7 +17,7 @@
 .mainTitle{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: block;
     
 }

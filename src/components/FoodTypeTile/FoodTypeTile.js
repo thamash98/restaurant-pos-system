@@ -4,7 +4,7 @@ import breakfast_image from '../../assests/breakfast.png';
 
 const FoodTypeTile = () => {
 
-  const [mouseState, setMouseEntered]= useState(false);
+  const [mouseState, setMouseEntered]= useState(false); //useState Hook
 
   const mouseEnterHandler = ()=>{
       setMouseEntered(true);
