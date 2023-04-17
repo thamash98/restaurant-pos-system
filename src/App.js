@@ -1,11 +1,11 @@
 import './App.css';
 import FoodTileContainer from './components/FoodTypeTile/FoodTileContainer';
-import MainLogo from './components/NavBar/MainLogo';
+import UpperNavBar from './components/NavBar/UpperNavBar';
 
 function App() {
   return (
     <div className="App">
-      <MainLogo/>
+      <UpperNavBar/>
       <FoodTileContainer/>
     </div>
   );
