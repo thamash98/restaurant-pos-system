@@ -1,10 +1,10 @@
 .outer{
     background-color: #B4FFF6;
-    width: 8vw;
-    height: 8vw;
+    width: 11rem;
+    height: 11rem;
     border-radius: 10px;
     position: relative;
-    margin: 10px;
+    margin: 12px;
     cursor: pointer;
     transition: all 400ms ease-in-out;
 }

@@ -1,0 +1,32 @@
+.outer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.dashboardText{
+    width: 210px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #464646;
+    border-radius: 7px;
+    padding-top: 8px;
+}
+
+.dashboardContent{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #747474;
+}
