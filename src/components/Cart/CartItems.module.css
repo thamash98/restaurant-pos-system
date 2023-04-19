@@ -1,0 +1,54 @@
+.container{
+    position: relative;
+    background-color: #292C2D;
+    width: 15rem;
+    display: flex;
+    position: relative;
+    padding:  1rem 0 1rem 3rem;
+    margin: 1rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.itemCount{
+    width: 50px;
+    height: 56px;
+    position: absolute;
+    background-color: #726F6F;
+    border-radius: 6px 0px 0px 6px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.itemCount span{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.titleHolder{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mainTitle{
+    color: white;
+    font-weight: 500;
+    font-style: 'Poppins';
+}
+
+.priceTitle{
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}

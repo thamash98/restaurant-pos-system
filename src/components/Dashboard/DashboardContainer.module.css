@@ -1,5 +1,6 @@
 .outer{
     height: 40vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 10rem;
@@ -10,23 +11,25 @@
 }
 
 .dashboardText{
-    width: 210px;
-    height: 45px;
+    position: absolute;
+    font-size: 1rem;
     font-family: 'Poppins';
     font-weight: 700;
     color: #FFFFFF;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin: auto;
     background-color: #464646;
     border-radius: 7px;
-    padding-top: 8px;
+    width: 190px;
+    height: fit-content;
 }
 
 .dashboardContent{
+    position: absolute;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins';
     font-family: 'Poppins';
     font-weight: 700;
     color: #747474;
+    top: 15%;
 }
