@@ -5,6 +5,7 @@ import FoodTileContainer from './components/FoodTypeTile/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
 import UpperNavBar from './components/NavBar/UpperNavBar';
 import RecentOrderContainer from './components/RecentOrders/RecentOrderContainer';
+import PriceContainer from './components/TotalPrice/PriceContainer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </div>
       </div>
       <CartItems/>
+      <PriceContainer/>
     </div>
   );
 }

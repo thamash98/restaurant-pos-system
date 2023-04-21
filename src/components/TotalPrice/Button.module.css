@@ -1,0 +1,10 @@
+button{
+    width: 8rem;
+    height: 2rem;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}
