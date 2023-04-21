@@ -1,5 +1,5 @@
 import './App.css';
-import CartItems from './components/Cart/CartItems';
+import CartItemContainer from './components/Cart/CartItemContainer';
 import DashboardContainer from './components/Dashboard/DashboardContainer';
 import FoodTileContainer from './components/FoodTypeTile/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
@@ -21,7 +21,7 @@ function App() {
           <ItemTileContainer/>
         </div>
       </div>
-      <CartItems/>
+      <CartItemContainer/>
       <PriceContainer/>
     </div>
   );

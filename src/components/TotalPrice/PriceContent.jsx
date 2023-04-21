@@ -1,11 +1,11 @@
 import React from 'react';
 import Style from './PriceContent.module.css'
 
-const PriceContent = () => {
+const PriceContent = (props) => {
   return (
     <div className={Style.container}>
-        <span className={Style.mainTitle}>Sub Total</span>
-        <span className={Style.subTitle}>Rs. 7800.00</span>
+        <span style={{fontWeight : props.fontWeight, fontSize: props.size}} className={Style.mainTitle}>{props.mainTitle}</span>
+        <span className={Style.subTitle}>{props.subTitle}</span>
     </div>
   );
 }
