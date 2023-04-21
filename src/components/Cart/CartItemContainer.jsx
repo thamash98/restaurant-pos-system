@@ -4,7 +4,10 @@ import CartItem from './CartItems';
 
 const CartItemContainer = () => {
   return (
-    <div>
+    <div className={Style.container}>
+        <CartItem/>
+        <CartItem/>
+        <CartItem/>
         <CartItem/>
         <CartItem/>
         <CartItem/>
